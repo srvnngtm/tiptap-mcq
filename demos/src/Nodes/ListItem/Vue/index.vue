@@ -23,7 +23,7 @@
 <script>
 import BulletList from '@tiptap/extension-bullet-list'
 import Document from '@tiptap/extension-document'
-import ListItem from '@tiptap/extension-list-item'
+import ListSaran from '@tiptap/extension-list-item'
 import OrderedList from '@tiptap/extension-ordered-list'
 import Paragraph from '@tiptap/extension-paragraph'
 import Text from '@tiptap/extension-text'

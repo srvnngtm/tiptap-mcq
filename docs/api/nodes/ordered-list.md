@@ -16,7 +16,7 @@ Type <code>1.&nbsp;</code> (or any other number followed by a dot) at the beginn
 npm install @tiptap/extension-ordered-list @tiptap/extension-list-item
 ```
 
-This extension requires the [`ListItem`](/api/nodes/list-item) node.
+This extension requires the [`ListSaran`](/api/nodes/list-item) node.
 
 ## Settings
 

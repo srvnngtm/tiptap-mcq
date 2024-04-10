@@ -24,7 +24,7 @@ npm install @tiptap/starter-kit
 * [`HardBreak`](/api/nodes/hard-break)
 * [`Heading`](/api/nodes/heading)
 * [`HorizontalRule`](/api/nodes/horizontal-rule)
-* [`ListItem`](/api/nodes/list-item)
+* [`ListSaran`](/api/nodes/list-item)
 * [`OrderedList`](/api/nodes/ordered-list)
 * [`Paragraph`](/api/nodes/paragraph)
 * [`Text`](/api/nodes/text)

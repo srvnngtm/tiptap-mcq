@@ -1,6 +1,6 @@
-context('/src/Nodes/ListItem/React/', () => {
+context('/src/Nodes/ListSaran/React/', () => {
   before(() => {
-    cy.visit('/src/Nodes/ListItem/React/')
+    cy.visit('/src/Nodes/ListSaran/React/')
   })
 
   beforeEach(() => {

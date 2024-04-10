@@ -51,6 +51,7 @@ export const TaskItem = Node.create<TaskItemOptions>({
     ]
   },
 
+
   renderHTML({ node, HTMLAttributes }) {
     return [
       'li',
@@ -62,7 +63,8 @@ export const TaskItem = Node.create<TaskItemOptions>({
         [
           'input',
           {
-            type: 'checkbox',
+            type: 'radio', // change type to 'radio'
+            name: 'radioGroup', // add name attribute
             checked: node.attrs.checked ? 'checked' : null,
           },
         ],
@@ -101,7 +103,8 @@ export const TaskItem = Node.create<TaskItemOptions>({
       const content = document.createElement('div')
 
       checkboxWrapper.contentEditable = 'false'
-      checkbox.type = 'checkbox'
+      checkbox.type = 'radio'
+      checkbox.name = 'radioGroup'
       checkbox.addEventListener('change', event => {
         // if the editor isn’t editable and we don't have a handler for
         // readonly checks we have to undo the latest change

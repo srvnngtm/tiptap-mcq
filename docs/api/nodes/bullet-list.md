@@ -16,7 +16,7 @@ Type <code>*&nbsp;</code>, <code>-&nbsp;</code> or <code>+&nbsp;</code> at the b
 npm install @tiptap/extension-bullet-list @tiptap/extension-list-item
 ```
 
-This extension requires the [`ListItem`](/api/nodes/list-item) node.
+This extension requires the [`ListSaran`](/api/nodes/list-item) node.
 
 ## Settings
 
